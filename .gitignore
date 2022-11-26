@@ -1,0 +1,6 @@
+*.pyc
+*.DS_Store
+frontend/my-app/package.json
+frontend/my-app/package-lock.json
+node_modules
+backend/djangoenv

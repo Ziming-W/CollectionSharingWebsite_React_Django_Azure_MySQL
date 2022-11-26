@@ -1,0 +1,38 @@
+#item-list-search {
+    position: relative;
+    margin-left: 10%;
+    margin-top: 300px;
+}
+
+#item-list-posts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: auto;
+    margin-bottom: 13px;
+    padding: 6px 12px;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#item {
+    width: fit-content;
+}
+
+.item-list-image {
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    max-height: 300px;
+    object-fit:cover;
+}
+
+.empty-prompt {
+    margin: auto;
+}

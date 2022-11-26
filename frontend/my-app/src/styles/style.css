@@ -1,0 +1,30 @@
+@import "nav.css";
+@import "authentication.css";
+@import "home.css";
+@import "upload.css";
+@import "history_post.css";
+@import "user_profile.css";
+@import "item_list.css";
+@import "item_details.css";
+
+@media screen and (max-width: 640px) {
+
+    h{
+        font-size: small;
+    }
+    .upload-form-container{
+        max-width: none;
+    }
+}
+
+body {
+    margin: 0;
+    min-height: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;    
+  }
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,96 @@
+.sign-up-background,.login-background {
+  background: hsl(218deg 50% 91%);
+  background-image: url(../images/bg--image--home.jpg);
+  background-size: cover;
+  position: fixed;
+  z-index: -1;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+
+}
+
+
+.authentication-form-container {
+  height: 500px;
+  border-radius: 30px;
+  width: 500px;
+  margin: auto;
+  background-color: hsl(213deg 85% 97%);
+  /* box-shadow: 0 0 2em hsl(231deg 62% 94%); */
+  margin-bottom: 170px;
+}
+
+#signup{
+  height: 530px;
+}
+
+.form {
+  margin-top: 30%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+
+.signUp, .login {
+  padding-top: 80px;
+  padding-bottom: 20px;
+  font-family: Oxygen, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.form--input, .form--password, .form--confirm--password, .form--submit{
+  margin-top: 30px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  display: block;
+  width: 100%;
+  height: 38px;
+  margin-bottom: 1px;
+  background-color: #ffffff;
+  border: 0px solid #cccccc;
+}
+
+.have-account{
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 5px;
+  margin-bottom: -6px;
+}
+.password--hint{
+  font-size: 12px;
+  padding-left: 10px;
+  margin-bottom: -10px;
+} 
+
+
+.form--submit {
+  border-radius: 20px;
+  background-color: rgba(3, 56, 103, 0.6);
+  transition: all 0.4s cubic-bezier(1,-0.16,.6,1.35);
+  font-family: Oxygen, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  border: 0;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+.form--submit:hover{
+  transition: all 0.4s cubic-bezier(1,-0.16,.6,1.35);
+  background-color: rgba(3, 56, 103, 0.841);
+}
+
+.progress-bar{
+  border-radius: 50px;
+  height: 7px;
+}
+
+
