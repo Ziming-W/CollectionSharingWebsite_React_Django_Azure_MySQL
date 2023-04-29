@@ -5,14 +5,14 @@
 
   * Share your collections!
 
-  * Find others with the same tastes!
+  * Find others with the same taste!
 
-  * Explore all types of collections you might never see!
+  * Explore all types of collections you might have never seen!
 
 # Deployed
 
 https://brave-moss-071f7c610.1.azurestaticapps.net/home  
-(We are using free server hosting plan, so the backend server will go into IDLE if having no access for 15mins. Sometimes you need to wait about 5 mins for backend server's activation)
+(We are using free server hosting plan, so the backend server will go into IDLE if having no access for 15mins. Please wait patiently for its restart. You might need to wait up to 5 mins. Frontend will display basic structure but won't be able to fetch posts or perform other actions during this time)
 
 # Demo
 
